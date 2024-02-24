@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <title>Sample Map</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
     integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
     crossorigin="" />
@@ -9,9 +10,50 @@
     crossorigin=""></script>
     <script defer src="index.js"></script> 
     <head>
+      <div class="box">
+        <h1 id="title">UNC YapMap</h1>
+      </div>
         <body>
-            <div id="map" style="height: 95vh;"></div>
+            <div class="dropdown">
+              
+                <div class="drowndownbutton"> 
+                <button class="dropbtn">Choose Your Place</button>
+                <div class="dropdown-content">
+                  <a href="arboretum.html">Coker Arboretum</a>
+                  <a href="battlePark.html">Battle Park</a>
+                  <a href="bell.html">The Bell Tower</a>
+                  <a href="bowmanPool.html">Bowman Pool</a>
+                  <a href="chase.html">Chase Dining Hall</a>
+                  <a href="cobb.html">Cobb Residence Hall</a>
+                  <a href="craig.html">Craig Residence Hall</a>
+                  <a href="davis.html">Davis Library</a>
+                  <a href="ehouse">Eringhaus Residence Hall</a>
+                  <a href="everett.html">Everett Residence Hall</a>
+                  <a href="graham.html">Graham Residence Hall</a>
+                  <a href="granville.html">Granville Towers</a>
+                  <a href="hintonjames.html">Hinton James Residence Hall</a>
+                  <a href="hookerFields.html">Hooker Fields</a>
+                  <a href="horton">Horton Residence Hall</a>
+                  <a href="infoAndSciLibrary.html">Information and Sciences Library</a>
+                  <a href="koury.html">Koury Residence Hall</a>
+                  <a href="lenoir.html">Lenoir Dining Hall</a>
+                  <a href="lewis.html">Lewis Residence Hall</a>
+                  <a href="mclinton.html">McClinton Residence Hall</a>
+                  <a href="quad.html">The Quad</a>
+                  <a href="ramsHead.html">Rams Head Recreation Center</a>
+                  <a href="sciLibrary.html">Science Library</a>
+                  <a href="sloaneLibrary.html">Sloane Library</a>
+                  <a href="src.html">Student Recreation Center</a>
+                  <a href="stoneAndLeaf.html">Stone and Leaf Cafe</a>
+                  <a href="ul.html">The Undergraduate Library</a>
+                  <a href="well.html">The Old Well</a>
+                  <a href="wilson.html">Wilson Library</a>
+              </div>
+
+          
+                </div>
+              </div>
+                <div id="map" style="height: 75vh; width: 50vw;"></div>
         </body>
     </head>
-
 </html>
